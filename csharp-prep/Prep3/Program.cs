@@ -11,7 +11,7 @@ class Program
         {
             // Core Requirement 1: Ask the user for the magic number
             Console.WriteLine("What is the magic number? ");
-            int magicNumber = new Random().Next(0, 100);
+            int magicNumber = new Random().Next(66);
 
             // Stretch Challenge: Keep track of the number of guesses
             int numberOfGuesses = 0;
