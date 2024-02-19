@@ -10,10 +10,10 @@ class YouTubeProgram
         
         Video video1 = new Video { Title = "Video 1", Author = "Author 1", LengthInSeconds = 120 };
         video1.AddComment("User1", "Great video!");
-        video1.AddComment("User2", "I learned a lot.");
+        video1.AddComment("User2", "I learned a lot thanks.");
 
         Video video2 = new Video { Title = "Video 2", Author = "Author 2", LengthInSeconds = 180 };
-        video2.AddComment("User3", "Awesome content!");
+        video2.AddComment("User3", "great content!");
 
         
         videos.Add(video1);
